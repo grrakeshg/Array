@@ -1,0 +1,22 @@
+
+
+import java.util.*;
+
+
+public class ArrayPermutation {
+	
+	public static void main(String arg[])
+	{
+		int[] array = {7, 10, 4, 3, 20, 15};
+int k = 3;
+int kthSmallest = Arrays.stream(array)
+                       .sorted()
+                       .skip(k - 1)
+                       .findFirst()
+                       .getAsInt();
+System.out.println(k + "th smallest element: " + kthSmallest);
+
+	}
+
+}
+
