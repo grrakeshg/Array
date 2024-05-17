@@ -19,4 +19,5 @@ System.out.println(k + "th smallest element: " + kthSmallest);
 	}
 
 }
+/*Ans: 3th smallest element: 7*/
 
